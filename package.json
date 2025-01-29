@@ -20,6 +20,17 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.2",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "@yao-pkg/pkg": "^6.2.0"
+  },
+  "bin": "server.js",
+  "pkg": {
+    "scripts": [
+      ".next/**/*.js"
+    ],
+    "assets": [
+      ".next/**/*",
+      "public/**/*"
+    ]
   }
 }
